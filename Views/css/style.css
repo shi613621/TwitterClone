@@ -1,6 +1,10 @@
 /*
 全体
 ****/
+html {
+    height: 100%;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -252,4 +256,50 @@ a {
     .bottom-area .btn {
         margin-top: 10px;
     }
+}
+
+/*
+会員登録（ログイン共用）
+****/
+body.sighup {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 100%;
+}
+
+.sighup {
+    background-color: #123;
+    color: #fff;
+}
+
+.sighup .form-sighup {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.sighup .logo-white {
+    margin-bottom: 30px;
+    width: 50px;
+}
+
+.sighup h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sighup input {
+    margin-bottom: 10px;
+    background-color: #123;
+    border-color: #456;
+    color: #fff;
+}
+
+.sighup input:focus {
+    background-color: #123;
+    border-color: #1af;
+    color: #fff;
 }
